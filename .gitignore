@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 # Bower
 assets/vendor
 
 # Editors
 .idea
 
+=======
+# Editors
+.idea
+
+# Other
+assets/vendor
+>>>>>>> stage
