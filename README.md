@@ -12,7 +12,6 @@ Work in progress.
  - Base file organization
  - Functions
  - Templates
- - Gulp/Grunt assets compilation
 
 ### License
 MIT

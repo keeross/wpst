@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-# Bower
-assets/vendor
-
-# Editors
-.idea
-
-=======
 # Editors
 .idea
 
 # Other
 assets/vendor
->>>>>>> stage
+node_modules
+npm-debug.log

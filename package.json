@@ -1,0 +1,27 @@
+{
+  "name": "wpst",
+  "version": "1.0.0",
+  "description": "A starter template for theme development.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tostr@bitbucket.org/tostr/wpst.git"
+  },
+  "keywords": [
+    "wpst",
+    "wordpress",
+    "start",
+    "theme"
+  ],
+  "author": "tostr",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "include-all": "^0.1.6"
+  }
+}
