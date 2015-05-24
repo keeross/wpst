@@ -19,9 +19,5 @@
   "author": "tostr",
   "license": "MIT",
   "dependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-less": "^1.0.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "include-all": "^0.1.6"
   }
 }
