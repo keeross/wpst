@@ -15,7 +15,7 @@ function core_styles() {
     wp_register_style('style'               , get_stylesheet_uri(), false, $theme_version);
     //wp_register_style('vendor.style'      , $bwr . '/vendor.script/vendor.style.min.css', false, $theme_version);
 
-    wp_register_style('core'                , $dir . '/styles/css/core.css', false, $theme_version);
+    wp_register_style('core'                , $dir . '/build/core.css', false, $theme_version);
     //wp_register_script('core.min'         , $dir . '/build/core.min.css', false, $theme_version);
 
     //-------------------------------------------------//
@@ -25,4 +25,4 @@ function core_styles() {
 
 }
 
-add_action('wp_enqueue_styles', 'core_styles');
+add_action('wp_enqueue_scripts', 'core_styles');

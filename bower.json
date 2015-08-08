@@ -2,7 +2,7 @@
   "name": "wpst",
   "version": "0.0.1",
   "authors": [
-    "Chirill Ceban <kee.ross@tostr.com>"
+    "Chirill Ceban <kee.ross@dolsen.co>"
   ],
   "description": "Starter template for WordPress themes, showing good style file and folder structure.",
   "main": "index.php",

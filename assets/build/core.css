@@ -1,0 +1,19 @@
+/* 
+ * Import all css and less files here.
+ * Main css/less file for theme.
+*/
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  background: #172d45;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}

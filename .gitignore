@@ -2,6 +2,6 @@
 .idea
 
 # Other
-assets/vendor
+assets/components
 node_modules
 npm-debug.log

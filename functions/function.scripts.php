@@ -17,7 +17,7 @@ function core_scripts() {
     wp_register_script('jquery'               , $bwr . '/jquery/dist/jquery.min.js', $theme_version);
     //wp_register_script('vendor.script'      , $bwr . '/vendor.script/vendor.script.min.js', array('jquery'), $theme_version);
 
-    wp_register_script('core'                 , $dir . '/js/core.js', array('jquery'), $theme_version);
+    wp_register_script('core'                 , $dir . '/build/core.js', array('jquery'), $theme_version);
     //wp_register_script('core.min'           , $dir . '/build/core.min.js', array('jquery'), $theme_version);
 
     //-------------------------------------------------//

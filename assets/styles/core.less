@@ -1,0 +1,42 @@
+/* 
+ * Import all css and less files here.
+ * Main css/less file for theme.
+*/
+
+// Vendor (Bower components)
+//@import (less) url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic);
+//@import (less) "../../components/normalize-css/normalize.css";
+
+// Colors
+@color: #23466c;
+@color2: #265a82;
+@color3: #2a658f;
+
+// Core
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  background: darken(@color, 10%);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  &::before,
+  &::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+// Components
+//@import "_topbar.less";
+//@import "_slider.less";
+//@import "_products.less";
+//@import "_page.less";
